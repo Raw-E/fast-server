@@ -51,6 +51,7 @@ class GetHealth(APIOperation):
 
     async def execute(self) -> HealthCheckResponseSchema:
         try:
+            print("Health check passed")
             logger.info("Health check passed")
             return HealthCheckResponseSchema(is_healthy=True)
         except Exception as e:

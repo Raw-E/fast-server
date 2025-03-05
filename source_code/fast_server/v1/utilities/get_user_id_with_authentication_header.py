@@ -17,8 +17,8 @@ from foundation.v1 import CustomLogger
 
 # Constants
 AUTHORIZATION_TOKEN_TO_USER_ID_MAPPING = {
-    "test-user-authentication-token": "id-of-test-user",
-    "woke-bloke-authentication-token": "id-of-woke-bloke",
+    "andy-authentication-token": "id-of-andy",
+    "blake-authentication-token": "id-of-blake",
     "ivy-authentication-token": "id-of-ivy",
 }
 
